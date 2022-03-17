@@ -1,0 +1,287 @@
+body {
+  margin: 0;
+  font-family: "graduate";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "graduate";
+}
+
+.header-wrapper {
+  height: 40px;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 100px;
+  align-items: center;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+}
+
+.header-styles {
+  font-family: "graduate";
+  font-size: 1.5;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.link-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  width: 250px;
+  text-align: center;
+  font-family: "graduate";
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+  justify-content: center;
+}
+
+.nav-link:hover {
+  color: red;
+  letter-spacing: 2px;
+}
+
+.icom-mr {
+  margin-right: 15px;
+}
+
+.icon-ml {
+  margin-left: 15px;
+}
+
+.main-section {
+  background-image: url(images/pr-tech\ 4.jpg);
+  padding: 100px;
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-heading {
+  padding: 1px 20px;
+  color: black;
+  width: 300px;
+  border-radius: 1px;
+  position: absolute;
+  right: 25px;
+  top: 160px;
+}
+
+.features-section {
+  background-image: url(images/background\ 2.jpg);
+  background-color: red;
+  border-top: 10px solid black;
+  color: white;
+  font: weight 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "graduate";
+  box-shadow: inset 0px, -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+
+.columns-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  padding: 3px;
+  margin: 20px;
+  text-align: center;
+  border-bottom: 5px solid transparent;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.flyer-img {
+  width: 400px;
+}
+
+.sponser-img {
+  width: 400px;
+}
+.column-hover {
+  border-bottom: 5px solid #fff;
+}
+
+.column-icon {
+  font-size: 3em;
+}
+
+.column-title {
+  font-size: 25px;
+  font-weight: 900;
+  height: 50px;
+  transition: 1s;
+  font-family: "graduate";
+}
+
+.column-title:hover {
+  letter-spacing: 1px;
+}
+
+.column-content {
+  letter-spacing: 2px;
+  font-family: "Graduate";
+}
+
+footer {
+  background-color: #000;
+  height: 50px;
+}
+
+.footer-icon {
+  color: #fff;
+  font-size: 50px;
+  align-self: center;
+}
+
+.icon-container {
+  width: 35vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.table-heading {
+  color: white;
+  justify-content: center;
+  padding: 25px;
+}
+
+.table-elements {
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 15px;
+  text-align: center;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  color: white;
+}
+
+.text {
+  padding: 30px 300px;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  height: 20vh;
+  color: white;
+}
+
+.footer-private {
+  display: flex;
+  background-color: red;
+  justify-content: space-evenly;
+  font-weight: bold;
+  color: white;
+}
+
+.table-heading-group {
+  color: white;
+  justify-content: center;
+  padding: 25px;
+}
+
+.table-elements-group {
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 15px;
+  text-align: center;
+}
+
+.text-group {
+  padding: 30px 300px;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  height: 20vh;
+  font-weight: bold;
+  color: #fff;
+}
+
+.group-description {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  color: #fff;
+}
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #fff;
+  float: left;
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery-photo2 {
+  margin: 5px;
+  border: 1px solid #fff;
+  float: right;
+  max-width: 50%;
+  height: auto;
+}
+
+.contact-heading {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: red;
+  color: #fff;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: red;
+  color: #fff;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: red;
+  color: #fff;
+}
+
+.e-mail {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: red;
+  color: white;
+}
+
+.gallery-image {
+  width: 300px;
+}
