@@ -86,7 +86,7 @@ h6 {
   border-radius: 1px;
   position: absolute;
   right: 25px;
-  top: 160px;
+  top: 150px;
 }
 
 .features-section {
@@ -222,7 +222,6 @@ footer {
   display: flex;
   justify-content: center;
   background-color: red;
-  height: 20vh;
   font-weight: bold;
   color: #fff;
 }
@@ -232,22 +231,6 @@ footer {
   justify-content: center;
   background-color: red;
   color: #fff;
-}
-
-.gallery {
-  margin: 5px;
-  border: 1px solid #fff;
-  float: left;
-  max-width: 100%;
-  height: auto;
-}
-
-.gallery-photo2 {
-  margin: 5px;
-  border: 1px solid #fff;
-  float: right;
-  max-width: 50%;
-  height: auto;
 }
 
 .contact-heading {
@@ -283,5 +266,12 @@ footer {
 }
 
 .gallery-image {
-  width: 300px;
+  width: 250px;
+}
+
+.photo-table {
+  background-color: red;
+  display: flex;
+  padding: 12px;
+  align-items: center;
 }
