@@ -91,7 +91,7 @@ h6 {
 
 .features-section {
   background-image: url(images/background\ 2.jpg);
-  background-color: red;
+  background-color: darkred;
   border-top: 10px solid black;
   color: white;
   font: weight 500px;
@@ -160,7 +160,7 @@ footer {
 }
 
 .icon-container {
-  width: 35vw;
+  width: 25vw;
   display: flex;
   justify-content: space-around;
 }
@@ -169,6 +169,7 @@ footer {
   color: white;
   justify-content: center;
   padding: 25px;
+  font-size: 20px;
 }
 
 .table-elements {
@@ -182,25 +183,27 @@ footer {
 .table {
   display: flex;
   justify-content: center;
-  background-color: red;
+  background-color: darkred;
   color: white;
+  font-size: 20px;
 }
 
 .text {
   padding: 30px 300px;
   display: flex;
   justify-content: center;
-  background-color: red;
+  background-color: darkred;
   height: 20vh;
   color: white;
 }
 
 .footer-private {
   display: flex;
-  background-color: red;
+  background-color: darkred;
   justify-content: space-evenly;
   font-weight: bold;
   color: white;
+  font-size: 20px;
 }
 
 .table-heading-group {
@@ -221,15 +224,16 @@ footer {
   padding: 30px 300px;
   display: flex;
   justify-content: center;
-  background-color: red;
+  background-color: darkred;
   font-weight: bold;
   color: #fff;
+  font-size: 20px;
 }
 
 .group-description {
   display: flex;
   justify-content: center;
-  background-color: red;
+  background-color: darkred;
   color: #fff;
 }
 
@@ -237,7 +241,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 15px;
-  background-color: red;
+  background-color: darkred;
   color: #fff;
 }
 
@@ -245,24 +249,27 @@ footer {
   display: flex;
   justify-content: center;
   padding: 5px;
-  background-color: red;
+  background-color: darkred;
   color: #fff;
+  font-size: 20px;
 }
 
 .number {
   display: flex;
   justify-content: center;
   padding: 5px;
-  background-color: red;
+  background-color: darkred;
   color: #fff;
+  font-size: 20px;
 }
 
 .e-mail {
   display: flex;
   justify-content: center;
   padding: 5px;
-  background-color: red;
+  background-color: darkred;
   color: white;
+  font-size: 20px;
 }
 
 .gallery-image {
@@ -270,8 +277,11 @@ footer {
 }
 
 .photo-table {
-  background-color: red;
+  background-color: darkred;
   display: flex;
-  padding: 12px;
-  align-items: center;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  /* flex-direction: column;
+  flex-wrap: nowrap; */
 }
