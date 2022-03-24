@@ -276,12 +276,14 @@ footer {
   width: 250px;
 }
 
-.photo-table {
-  background-color: darkred;
-  display: flex;
+table.photo-table {
   padding: 10px;
   margin-right: auto;
   margin-left: auto;
   /* flex-direction: column;
   flex-wrap: nowrap; */
+}
+
+.photo-background {
+  background-color: darkred;
 }
